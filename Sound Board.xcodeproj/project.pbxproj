@@ -13,6 +13,10 @@
 		9E3555421E4059DE00432509 /* Sound_Board.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E3555401E4059DE00432509 /* Sound_Board.xcdatamodeld */; };
 		9E3555441E4059DE00432509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E3555431E4059DE00432509 /* Assets.xcassets */; };
 		9E3555471E4059DE00432509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3555451E4059DE00432509 /* LaunchScreen.storyboard */; };
+		9E35554F1E4060CF00432509 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35554E1E4060CF00432509 /* SoundViewController.swift */; };
+		9E3555531E43DF1300432509 /* soundz_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3555521E43DF1300432509 /* soundz_logo.png */; };
+		9E3555561E441DC500432509 /* Record.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3555541E441DC500432509 /* Record.png */; };
+		9E3555571E441DC500432509 /* Stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3555551E441DC500432509 /* Stop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		9E3555431E4059DE00432509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E3555461E4059DE00432509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E3555481E4059DE00432509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E35554E1E4060CF00432509 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
+		9E3555521E43DF1300432509 /* soundz_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundz_logo.png; sourceTree = "<group>"; };
+		9E3555541E441DC500432509 /* Record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Record.png; path = ../Record.png; sourceTree = "<group>"; };
+		9E3555551E441DC500432509 /* Stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Stop.png; path = ../Stop.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				9E3555391E4059DE00432509 /* AppDelegate.swift */,
 				9E35553B1E4059DE00432509 /* ViewController.swift */,
+				9E35554E1E4060CF00432509 /* SoundViewController.swift */,
 				9E35553D1E4059DE00432509 /* Main.storyboard */,
 				9E3555431E4059DE00432509 /* Assets.xcassets */,
 				9E3555451E4059DE00432509 /* LaunchScreen.storyboard */,
 				9E3555481E4059DE00432509 /* Info.plist */,
 				9E3555401E4059DE00432509 /* Sound_Board.xcdatamodeld */,
+				9E3555521E43DF1300432509 /* soundz_logo.png */,
+				9E3555541E441DC500432509 /* Record.png */,
+				9E3555551E441DC500432509 /* Stop.png */,
 			);
 			path = "Sound Board";
 			sourceTree = "<group>";
@@ -128,7 +140,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E3555471E4059DE00432509 /* LaunchScreen.storyboard in Resources */,
+				9E3555531E43DF1300432509 /* soundz_logo.png in Resources */,
 				9E3555441E4059DE00432509 /* Assets.xcassets in Resources */,
+				9E3555571E441DC500432509 /* Stop.png in Resources */,
+				9E3555561E441DC500432509 /* Record.png in Resources */,
 				9E35553F1E4059DE00432509 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E35554F1E4060CF00432509 /* SoundViewController.swift in Sources */,
 				9E3555421E4059DE00432509 /* Sound_Board.xcdatamodeld in Sources */,
 				9E35553C1E4059DE00432509 /* ViewController.swift in Sources */,
 				9E35553A1E4059DE00432509 /* AppDelegate.swift in Sources */,
@@ -306,6 +322,7 @@
 				9E35554D1E4059DE00432509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
